@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f7fb;
+  color: #222;
+}
+
+header {
+  padding: 24px;
+  text-align: center;
+  background: #155eef;
+  color: white;
+}
+
+main {
+  max-width: 900px;
+  margin: 24px auto;
+  padding: 0 16px;
+}
+
+#searchInput {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.book-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+.book {
+  padding: 16px;
+  background: white;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+.book h2 {
+  margin-top: 0;
+  color: #155eef;
+  font-size: 20px;
+}
